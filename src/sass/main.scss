@@ -1,0 +1,11 @@
+@import "sassy-buttons";
+
+body{
+	width:960px;
+}
+
+
+.btn{
+	@include sassy-button('matte', 5px, 12px);
+}
+
